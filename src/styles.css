@@ -1,0 +1,33 @@
+/* Стили по классам */
+.site-header {
+    padding: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Стили для ссылок меню */
+  .menu-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Фокус (доступность) */
+  .menu-link:focus-visible {
+    outline: 2px solid orange;
+  }
+  
+  /* Состояния */
+  .menu-link:hover {
+    color: blue;
+  }
+  
+  .menu-link:active {
+    color: navy;
+  }
+  
+  .menu-link:disabled {
+    color: gray;
+  }
