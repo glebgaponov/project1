@@ -15,7 +15,6 @@ form?.addEventListener('submit', (e) => {
 });
 dlg.addEventListener('close', () => { lastActive?.focus(); });
 // Esc по умолчанию вызывает событие 'cancel' и закрывает <dialog>
-const form = document.getElementById('contactForm');
 form?.addEventListener('submit', (e) => {
 // 1) Сброс кастомных сообщений
 [...form.elements].forEach(el => el.setCustomValidity?.(''));
